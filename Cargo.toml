@@ -1,0 +1,21 @@
+[package]
+name = "neuragraph"
+version = "0.1.0"
+edition = "2024"
+authors = ["NeuraGraph Team"]
+license = "MIT"
+description = "Decentralized AI Knowledge Graph using Rust and IPFS."
+repository = "https://github.com/neuragraph/NeuraGraph"
+
+[dependencies]
+ipfs-api = "0.8.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1", features = ["full"] }
+rust-crypto = "0.2.36"
+clap = "3.0.0"
+log = "0.4"
+env_logger = "0.9"
+thiserror = "1.0"
+futures = "0.3"
+web3 = "0.15.0"
